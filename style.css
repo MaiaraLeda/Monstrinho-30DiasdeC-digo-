@@ -1,0 +1,127 @@
+main{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.monstroCorpo{
+	width: 40vw;
+	height: 80vh;
+	background-color: #FFEF2A;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+}
+.monstroCorpo__oculosEsquerdo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #66634F;
+	position: relative;
+	left: 13%;
+	top: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+.monstroCorpo__oculosDireito{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #66634F;
+	position: relative;
+	left: 49%;
+	bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+.monstroCorpo__oculosEsquerdo__olho{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.monstroCorpo__oculosDireito__olho{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.monstroCorpo__oculosEsquerdo__olhoBolinha{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #422B11;
+	border: 2px #000 solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.monstroCorpo__oculosDireito__olhoBolinha{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #422B11;
+	border: 2px #000 solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.monstroCorpo__oculosEsquerdo__olhoBolinhaInterna{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #000;
+}
+.monstroCorpo__oculosDireito__olhoBolinhaInterna{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #000;
+}
+.monstroCorpo__faixaEsquerda{
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	bottom: 200px;
+	background-color: #000;
+}
+.monstroCorpo__faixaDireita{
+	width: 75px;
+	height: 50px;
+	position: absolute;
+	bottom: 200px;
+	right: 381px;
+	background-color: #000;
+}
+.monstroCorpo__boca{
+	width: 150px;
+	height: 50px;
+	background-color: #FFEF2A;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border: 2px #422B11 solid;
+	position: absolute;
+	left: 44%;
+	bottom: 70px;
+}
+.correcao{
+	width: 180px;
+	height: 40px;
+	background-color: #FFEF2A;
+	position: absolute;
+	left: 43%;
+	bottom: 90px;
+
+
+
+}
